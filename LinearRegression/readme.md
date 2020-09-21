@@ -38,3 +38,4 @@ Cost function(J) of Linear Regression is the Root Mean Squared Error (RMSE) betw
 
 Gradient Descent:
 To update θ1 and θ2 values in order to reduce Cost function (minimizing RMSE value) and achieving the best fit line the model uses Gradient Descent. The idea is to start with random θ1 and θ2 values and then iteratively updating the values, reaching minimum cost.
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
