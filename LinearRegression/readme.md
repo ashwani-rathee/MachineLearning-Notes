@@ -21,9 +21,6 @@ The model gets the best regression fit line by finding the best θ1 and θ2 valu
 θ1: intercept
 θ2: coefficient of x
 
-
-
-
 Once we find the best θ1 and θ2 values, we get the best fit line.
 So when we are finally using our model for prediction, it will predict the value of y for the input value of x.
 
@@ -34,14 +31,10 @@ By achieving the best-fit regression line, the model aims to predict y value suc
 and true value is minimum. So, it is very important to update the θ1 and θ2 values, to reach the best value that minimize the error
 between predicted y value (pred) and true y value (y).
 
-
-
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/LR-cost-function-1.jpg)
+![](https://media.geeksforgeeks.org/wp-content/uploads/LR-cost-function-2.jpg)
 
 Cost function(J) of Linear Regression is the Root Mean Squared Error (RMSE) between predicted y value (pred) and true y value (y).
 
 Gradient Descent:
 To update θ1 and θ2 values in order to reduce Cost function (minimizing RMSE value) and achieving the best fit line the model uses Gradient Descent. The idea is to start with random θ1 and θ2 values and then iteratively updating the values, reaching minimum cost.
-
-Attention reader! Don’t stop learning now. Get hold of all the important CS Theory concepts for SDE interviews with the CS Theory Course at a student-friendly price and become industry ready.
-
